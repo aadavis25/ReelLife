@@ -1,7 +1,11 @@
 $(document).ready(function () {
 
-	$('#reveal').on('click', 'h3', null, function (e) {
-		alert('woo');
-		$(this).children().toggle();
+    $("#reveal").click(function(){
+    var ul = $(this).next("ul");
+    if (ul.is(":hidden")) {
+        ul.slideDown();
+    } else {
+        ul.slideUp();
+    }
 	});
-});
+});​
