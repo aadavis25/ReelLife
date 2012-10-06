@@ -101,14 +101,15 @@ if ($user_id) {
       <?php if (isset($basic)) { ?>
       <div class="row">
       <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
-      <div>
+      <div class="title">
       <span class="span10" style="background : url(images/underline.png) bottom repeat-x;">  
-         <h1 class="title">Welcome to your ReelLife, <strong><span style="text-decoration:underline"><?php echo he(idx($basic, 'name')); ?></span></strong></h1>
+         <h1>Welcome to your ReelLife, <strong><span style="text-decoration:underline"><?php echo he(idx($basic, 'name')); ?></span></strong></h1>
       <?php } ?>
       <h2>You have 7 seconds to capture a moment... make it count!</h2>
+      </div> 
     </span>
     <span class="span8 offset2 ">
-      <div class="bodytext"><h3 class="reveal bodytext">What exactly is ReelLife?</h3>
+      <div class="bodytext"><h3 class="reveal">What exactly is ReelLife?</h3>
         <ul>
           <li>ReelLife is a mobile app that will prompt the user to take pictures at random times during the day when his or her phone is in use.</li>
           <li>Over time, the user and his or her friends will have a story of photos with which to look back on their <strong>"reel"</strong> lives.</li>
@@ -122,7 +123,7 @@ if ($user_id) {
         </ul>
       </div>
       </span>
-    </div> 
+   
   </div>
   </div><!-- /container -->
 
