@@ -94,7 +94,7 @@ if ($user_id) {
   </head>
 
   <body>
-    <div id="transbox">
+    
     <a href="index3.php">here</a>
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
@@ -166,7 +166,7 @@ if ($user_id) {
 
 
     </div> 
-  </div>
+
 
     <!-- Le javascript
     ================================================== -->
