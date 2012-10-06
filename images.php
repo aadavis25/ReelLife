@@ -145,7 +145,7 @@ if ($user_id) {
                 $albumid = idx($album, 'id');
                 break;
               }
-            if (is_int($albumid)){
+            if ($albumid!=NULL){
               $photos = idx($facebook->api($albumid . '/photos?limit=200'), 'data', array());
               $i = 0;
               foreach ($photos as $photo) {
