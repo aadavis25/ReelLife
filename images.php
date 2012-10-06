@@ -125,7 +125,7 @@ if ($user_id) {
       </div>
       <?php } ?>
     <span class="span12">
-      <div><h3>Check out your ReelLife</h3>
+      <div id="gallery"><h3>Check out your ReelLife</h3><ul>
           <?php
           ini_set('display_errors', 'On');
           error_reporting(E_ALL);
@@ -147,18 +147,20 @@ if ($user_id) {
                 $likeNum = sizeof(idx($likes, 'data'));
               else 
                 $likeNum = 0;
-              $class =  'offset'.($i++%12);
+         
           ?>
           
-            <div id="gallery" class = "offset:<?php echo $class?>">
               <h4>Likes : <?php echo $likeNum?></h4>
+             <li>
               <a href="<?php echo he($link); ?>" target="_top"><img src=<?php echo he($link); ?> style="height:50%; width:50%;"></a>
-            </div>
+            </li>
+          
           <?php
             }
           ?>
         </ul>
       </div>
+    </div>
       </span>
 
 
