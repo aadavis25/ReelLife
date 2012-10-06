@@ -82,8 +82,10 @@ if ($user_id) {
             <ul class="nav">
               <li class="active"><a href="/">Home</a></li>
               <li><a href="images.php">Images</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li><div class="fb-login-button" data-scope="user_likes,user_photos" style="margin-top:10px; "></div></li>
+              <li><a href="contact">Contact</a></li>
+              <?php if (!isset($basic)) { ?>
+                <li><div class="fb-login-button" data-scope="user_likes,user_photos" style="margin-top:10px; "></div></li>
+              <?php }?>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -95,7 +97,7 @@ if ($user_id) {
      
       <?php if (isset($basic)) { ?>
       <div class="row">
-      <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
+      <span class="span" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
       <div>
       <span class="span10">  
          <h1>Welcome to your ReelLife, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
@@ -117,9 +119,9 @@ if ($user_id) {
         </ul>
       </div>
       </span>
-    <div> 
+    <span> 
       <h2>Your friends are using it too!</h2>
-    </div>
+    </span>
 
 
 
