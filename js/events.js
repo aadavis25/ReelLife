@@ -9,4 +9,4 @@ $(".reveal").each(function(element){
             }
         });
     });
-});​
+});
