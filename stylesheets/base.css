@@ -5,6 +5,9 @@
 
 /* =global elements
 --------------------------------------------- */
+*{
+  font-size: 24px;
+}
 body {
   color: #999;
   font: 14px/1.5em "Lucida Grande", Arial, sans-serif;
