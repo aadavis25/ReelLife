@@ -1,4 +1,6 @@
-.reveal,
+.reveal{
+	visibility: hidden;
+},
 .reveal:hover{
     cursor:pointer;
 }​

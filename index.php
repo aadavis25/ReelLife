@@ -80,10 +80,10 @@ if ($user_id) {
           <a class="brand" href="#">ReelLife</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li><div class="fb-login-button" data-scope="user_likes,user_photos" style="marigin-top:5px;"></div></li>
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#images">Images</a></li>
               <li><a href="#contact">Contact</a></li>
+              <li><div class="fb-login-button" data-scope="user_likes,user_photos" style="marigin-top:5px;"></div></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -103,13 +103,13 @@ if ($user_id) {
       <h2>You have 7 seconds... make it count</h2>
     </span>
     <span class="span8 offset1">
-      <div><h3 class="reveal">what exactly is ReelLife?</h3>
+      <div><h3 class="reveal"><u>what exactly is ReelLife?</u></h3>
         <ul>
           <li>ReelLife will prompt the user to take pictures at random times when the phone is in use.</li>
           <li>Over time, the user and their friends will look back on their <strong>reel</strong> lives</li>
         </ul>
       </div>
-      <div><h3 class="reveal">how does ReelLife work?</h3>
+      <div><h3 class="reveal"><u>how does ReelLife work?</u></h3>
         <ul>
           <li>The phone will buzz and a countdown from 7 seconds will begin. </li>
           <li>The user will have those seconds to take the most <strong>fantastic</strong> picture based on the theme of the day</li>
