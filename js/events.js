@@ -16,15 +16,19 @@ var cont_left = $(".container").position().left;
             // hover in
             $(this).parent().parent().css("z-index", 1);
             $(this).animate({
-               height: "100%",
-               width: "100%"
+               height: "70%",
+               width: "70%",
+               left : "-=10%",
+               top : "-=10%"
             }, "fast");
         }, function() {
             // hover out
             $(this).parent().parent().css("z-index", 0);
             $(this).animate({
                 height: "50%",
-                width: "50%"
+                width: "50%",
+                top : "+=10%",
+                left : "+=10%"
             }, "fast");
         });
 
