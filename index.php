@@ -101,19 +101,25 @@ if ($user_id) {
 
      
       <?php if (isset($basic)) { ?>
+      <div class="row">
       <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
-      <div>  
+      <div>
+      <span class="span10">  
          <h1>Welcome to Reelife, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
       <?php } ?>
+    </span>
+    <span class="span8 offset2">
       <h2>You have 7 seconds... make it count</h2>
-      <div>what exactly is Reelife?
+      <div><h2>what exactly is Reelife?</h2>
         <ul id="reveal">
           <li>HEllo</li>
           <li>This</li>
         </ul>
+      </span>
 
 
     </div> 
+  </div>
   </div><!-- /container -->
 
     <!-- Le javascript
