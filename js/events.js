@@ -23,8 +23,8 @@ var cont_left = $(".container").position().left;
             // hover out
             $(this).parent().parent().css("z-index", 0);
             $(this).animate({
-                height: "80%",
-                width: "80%"
+                height: "-20%",
+                width: "-20%"
             }, "fast");
         });
 
