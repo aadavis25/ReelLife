@@ -1,5 +1,5 @@
 body{
-	background: url(../images/bg.png) no-repeat;
+	background: url(../images/bg.png) repeat-y;
 	background-size:100%;
 }
 .reveal{
@@ -10,7 +10,7 @@ body{
 }
 .reveal:hover{
     cursor:pointer;
-    background: #175e94;
+    background: #032946;
 }​
 .navbar{
 	background: #032946;

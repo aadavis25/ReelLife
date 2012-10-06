@@ -108,7 +108,6 @@ if ($user_id) {
             <ul class="nav">
               <li><a href="/">Home</a></li>
               <li class="active"><a href="images.php">Images</a></li>
-              <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
