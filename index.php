@@ -109,13 +109,14 @@ if ($user_id) {
       <?php } ?>
       <h2>You have 7 seconds... make it count</h2>
     </span>
-    <span class="span8 offset2">
+    <span class="span8 offset1">
       
       <div><h3 id="reveal">what exactly is Reelife?</h3>
         <ul>
           <li>HEllo</li>
           <li>This</li>
         </ul>
+      </div>
       </span>
 
 
