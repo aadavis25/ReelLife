@@ -95,11 +95,13 @@ if ($user_id) {
       <?php if (isset($basic)) { ?>
       <div class="row">
       <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
-      <strong><?php echo he(idx($basic, 'name')); ?></strong>
+      <span><strong><?php echo he(idx($basic, 'name')); ?></strong></span>
       </div>
       <?php } ?>
     <span class="span8">
       <div><h3><u>Check out your ReelLife</u></h3>
+        <div class="list inline">
+        <h3>Recent photos</h3>
         <ul class="photos">
           <?php
             $i = 0;
@@ -118,6 +120,7 @@ if ($user_id) {
             }
           ?>
         </ul>
+      </div>
       </div>
       </span>
 
