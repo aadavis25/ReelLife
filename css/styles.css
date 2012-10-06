@@ -1,7 +1,7 @@
 .reveal{
 	text-decoration:underline;
 }
-.reveal > ul{
+.reveal  ul{
 	visibility: hidden;
 }
 .reveal:hover{
