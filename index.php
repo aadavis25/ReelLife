@@ -65,6 +65,7 @@
 
       <div>
          <h1>Welcome to Reelife, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
+      <?php } ?>
       <h2>You have 7 seconds... make it count</h2>
       <div>what exactly is Reelife?
         <ul id="reveal">
