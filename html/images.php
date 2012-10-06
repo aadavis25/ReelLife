@@ -99,9 +99,8 @@ if ($user_id) {
       </div>
       <?php } ?>
     <span class="span8">
-      <div><h3><u>Check out your ReelLife</u></h3>
+      <div><h3>Check out your ReelLife</h3>
         <div class="list inline">
-        <h3>Recent photos</h3>
         <ul class="photos">
           <?php
             $i = 0;
