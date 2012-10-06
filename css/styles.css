@@ -1,10 +1,10 @@
 .reveal{
 	text-decoration:underline;
 }
-.reveal:ul{
+.reveal > ul{
 	visibility: hidden;
 }
 .reveal:hover{
     cursor:pointer;
-    background-color: '6cb0e4';
+    background-color: '#6cb0e4';
 }​
