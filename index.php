@@ -101,7 +101,7 @@ if ($user_id) {
       <?php if (isset($basic)) { ?>
       <div class="row">
       <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
-      <div class="titletext">
+      <div class="hero-unit">
          <h1>Welcome to your ReelLife, <span style="text-decoration:underline"><?php echo he(idx($basic, 'name')); ?></span></h1>
       <?php } ?>
       <h2>You have 7 seconds to capture a moment... make it count!</h2>
