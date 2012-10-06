@@ -130,6 +130,7 @@ if ($user_id) {
       exit();
     }
   }
+}
  ?>
   </body>
 </html>
