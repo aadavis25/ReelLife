@@ -79,9 +79,10 @@ if ($user_id) {
           </a>
 
           <a class="brand" href="#">ReelLife</a>
+          <img src="/ico/favicon.ico">
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li><img src="/ico/favicon.ico"></li>
+
               <li class="active"><a href="/">Home</a></li>
               <li><a href="images.php">Images</a></li>
               <?php if (!isset($basic)) { ?>
