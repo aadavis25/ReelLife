@@ -140,7 +140,6 @@ if ($user_id) {
             foreach ($photos as $photo) {
               // Extract the pieces of info we need from the requests above
               $id = idx($photo, 'id');
-              $picture = idx($photo, 'picture');
               $link = idx($photo, 'source');
               $likes = idx($photo, 'likes');
               if ($likes != null)
@@ -152,7 +151,7 @@ if ($user_id) {
           
             <div class = "offset:<?php echo $class?>">
               <h4>Likes : <?php echo $likeNum?></h4>
-              <a href="<?php echo he($link); ?>" target="_top"><img src=<?php echo he($picture); ?> class="<?php //echo $class; ?>margin:0 10px 0 10px"></a>
+              <a href="<?php echo he($link); ?>" target="_top"><img src=<?php echo he($link); ?>>margin:0 10px 0 10px"></a>
             </div>
           <?php
             }
