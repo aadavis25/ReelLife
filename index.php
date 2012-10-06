@@ -77,11 +77,11 @@ if ($user_id) {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-
+          <img class="brand" src="/ico/favicon.ico">
           <a class="brand" href="#">ReelLife</a>
 
           <div class="nav-collapse collapse">
-            <img src="/ico/favicon.ico">
+            
             <ul class="nav">
 
               <li class="active"><a href="/">Home</a></li>
