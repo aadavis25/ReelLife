@@ -102,11 +102,10 @@ if ($user_id) {
       <div class="row">
       <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
       <div class="titletext">
-      <span class="span9" style="background : url(images/underline.png) bottom repeat-x;">  
+      <span class="span9" style="background : url(images/underline.png) bottom repeat-x;"> </span>
          <h1>Welcome to your ReelLife, <span style="text-decoration:underline"><?php echo he(idx($basic, 'name')); ?></span></h1>
       <?php } ?>
       <h2>You have 7 seconds to capture a moment... make it count!</h2>
-      </span>
       </div> 
     <span class="span8 offset2 ">
       <div class="bodytext"><h3 class="reveal">What exactly is ReelLife?</h3>
