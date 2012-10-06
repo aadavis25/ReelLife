@@ -118,14 +118,18 @@ if ($user_id) {
 
 
      
-      <?php if (isset($basic)) { ?>
+      
       <div class="row">
       <div class="span12 well titletext" style="float: left; color: #fff;">
         <h1 class="offset1" style="margin-top: -5px;">
-          Aaron Mitchell Davis
-        </h1>
+          <?php if (isset($basic)) { ?>
+            Aaron Mitchell Davis
+            </h1>
         <img id="picture" src="https://graph.facebook.com/1542000160/picture?type=normal" style="margin-top: -45px;">
-         
+          <?php } else{ ?>
+            ReelLife
+            </h1>
+          <?php  } ?>
       </div>
       <div class="span12 well bodytext">
         <h2>Check out your ReelLife</h2>
