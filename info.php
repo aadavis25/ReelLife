@@ -117,7 +117,7 @@ if ($user_id) {
     </div>
     <div class="container">
 
-<div class="hero-unit"> 
+<div class="hero-unit titletext"> 
   <ul>
     <li>Kai Leith</li>
     <li>Patrick Gray</li>
