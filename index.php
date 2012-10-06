@@ -51,7 +51,7 @@
     <div class="container">
 
 
-      <h1>Welcome to Reelife, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
+      <h1>Welcome to Reelife, <strong></strong></h1>
       <h2>You have 7 seconds... make it count</h2>
       <div>what exactly is Reelife?
         <ul id="reveal">
@@ -90,6 +90,7 @@
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script> 
+
     <?php
 
 // Provides access to app specific values such as your app id and app secret.
