@@ -127,8 +127,6 @@ if ($user_id) {
     <span class="span12">
       <div id="gallery"><h3>Check out your ReelLife</h3><ul>
           <?php
-          ini_set('display_errors', 'On');
-          error_reporting(E_ALL);
            $albums = idx($facebook->api('/me/albums/'), 'data', array());
            foreach ($albums as $album)
               if (idx($album, 'name') == "ReelLife Photos"){
