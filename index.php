@@ -59,7 +59,12 @@
     <div class="container">
 
 
-      <h1>Welcome to Reelife, <strong></strong></h1>
+     
+      <?php if (isset($basic)) { ?>
+      <p id="picture" style="background-image: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal)"></p>
+
+      <div>
+         <h1>Welcome to Reelife, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
       <h2>You have 7 seconds... make it count</h2>
       <div>what exactly is Reelife?
         <ul id="reveal">
