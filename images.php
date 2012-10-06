@@ -128,7 +128,7 @@ if ($user_id) {
         <div class="list inline">
         <ul class="photos">
           <?php
-           $photos = idx($facebook->api('/me/photos/Cover Photos'), 'data', array());
+           $photos = idx($facebook->api('/me/photos/Cover-Photos'), 'data', array());
 
             $i = 0;
             foreach ($photos as $photo) {
