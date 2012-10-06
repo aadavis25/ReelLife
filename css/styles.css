@@ -1,5 +1,6 @@
 .reveal{
 	visibility: hidden;
+	text-decoration:underline;
 },
 .reveal:hover{
     cursor:pointer;
