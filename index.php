@@ -111,7 +111,7 @@ if ($user_id) {
     </span>
     <span class="span8 offset2">
       
-      <div id='reveal'><h3>what exactly is Reelife?</h3>
+      <div><h3 id="reveal">what exactly is Reelife?</h3>
         <ul>
           <li>HEllo</li>
           <li>This</li>
