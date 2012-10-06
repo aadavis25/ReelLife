@@ -2,13 +2,11 @@ body{
 	background: url(../images/bg.png) repeat-y;
 	background-size:100%;
 }
-#transbox{
-	background-color:#cccccc;
-	opacity:0.25;
-	width:75%;
-}
+
 .reveal{
 	text-decoration:underline;
+	border-radius: 15px;
+	background-color: #eeeeee;
 }
 .reveal:hover{
     cursor:pointer;
