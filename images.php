@@ -120,7 +120,7 @@ if ($user_id) {
      
       <?php if (isset($basic)) { ?>
       <div class="row">
-      <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
+      <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:150px;"></span>
       <div class="well titletext">
       
          <h1><?php echo he(idx($basic, 'name')); ?></h1>
@@ -156,7 +156,7 @@ if ($user_id) {
             
           ?>
           
-              <h4 class="well">Likes : <span clas="badge badge-info"><?php echo $likeNum?></span></h4>
+              <h4 class="well">Likes : <span class="badge badge-info"><?php echo $likeNum?></span></h4>
              <li>
               <a href="<?php echo he($link); ?>" target="_top" title="<?php echo $name?> Likes = <?php echo $likeNum?>"><img src=<?php echo he($link); ?> style="height:50%; width:50%;"></a>
             </li>
