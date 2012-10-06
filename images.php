@@ -141,12 +141,15 @@ if ($user_id) {
               // Extract the pieces of info we need from the requests above
               $id = idx($photo, 'id');
               $picture = idx($photo, 'picture');
-              $link = idx($photo, 'link');
-
+              $link = idx($photo, 'source');
+              $likes = idx($photo, 'likes')
               //$class =  'offset'.($i++%12);
           ?>
           
-            <a href="<?php echo he($link); ?>" target="_top"><img src=<?php echo he($picture); ?>></a>
+            <div>
+              <h4>Likes:<?php echo sizeof($likes)?></h4>
+              <a href="<?php echo he($link); ?>" target="_top"><img src=<?php echo he($picture); ?> class="<?php //echo $class; ?>maregin:0 10px 0 10px"></a>
+            </div>
           <?php
             }
           ?>
