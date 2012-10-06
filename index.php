@@ -47,7 +47,7 @@
         </div>
       </div>
     </div>
-
+    <div class="fb-login-button" data-scope="user_likes,user_photos"></div>
     <div class="container">
 
 
@@ -119,6 +119,6 @@ if ($user_id) {
       exit();
     }
   }
- 
+ ?>
   </body>
 </html>
