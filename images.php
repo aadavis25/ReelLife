@@ -124,8 +124,8 @@ if ($user_id) {
       <span><strong><h3><?php echo he(idx($basic, 'name')); ?></strong></h3></span>
       </div>
       <?php } ?>
-      <div class="title">
-        <h2 class="title">Check out your ReelLife</h2>
+      <div class="titletext">
+        <h2>Check out your ReelLife</h2>
       </div>
     <span class="span10 offset2">
       <div id="gallery">
