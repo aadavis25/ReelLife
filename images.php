@@ -109,6 +109,7 @@ if ($user_id) {
             <ul class="nav">
               <li><a href="/">Home</a></li>
               <li class="active"><a href="images.php">Images</a></li>
+              <li><a href="info.php">Info</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -144,7 +145,7 @@ if ($user_id) {
                 $albumid = idx($album, 'id');
                 break;
               }
-            if ($albumid != null){
+            if ($albumid != NULL){
               $photos = idx($facebook->api($albumid . '/photos?limit=200'), 'data', array());
               $i = 0;
               foreach ($photos as $photo) {
