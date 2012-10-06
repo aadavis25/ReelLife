@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>ReelLife, 7 seconds... make it count</title>
+    <title>ReelLife</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A social picture taking competition among friends">
     <meta name="author" content="Aaron Davis">
@@ -83,7 +83,7 @@ if ($user_id) {
               <li class="active"><a href="#">Home</a></li>
               <li><a href="/html/images.php">Images</a></li>
               <li><a href="#contact">Contact</a></li>
-              <li><div class="fb-login-button" data-scope="user_likes,user_photos" style="marigin-top:5px;"></div></li>
+              <li><div class="fb-login-button" data-scope="user_likes,user_photos" style="margin-top:5px; "></div></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
