@@ -1,5 +1,6 @@
 body{
-	background: url(images/bg.png) 100% 100% no-repeat;
+	background: url(images/bg.png) no-repeat;
+	background-size:100%;
 }
 .reveal{
 	text-decoration:underline;
