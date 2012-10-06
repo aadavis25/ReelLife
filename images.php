@@ -147,7 +147,7 @@ if ($user_id) {
 
               $class =  'span offset'.($i++%12);
           ?>
-          <li> <img src=<?php echo he($picture); ?> class="<?php echo $class; ?>">
+          <img src=<?php echo he($picture); ?> class="<?php echo $class; ?>">
             <a href="<?php echo he($link); ?>" target="_top"></a>
           </li>
           <?php
