@@ -7,6 +7,6 @@ $(document).ready(function () {
         	ul.slideDown();
     	} else {
         	ul.slideUp();
-    	}	
+    	}
 	});
-});​
+});
