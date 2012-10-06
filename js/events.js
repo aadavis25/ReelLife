@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-	$('#reveal').on('click', 'ul', null, function (e) {
-		$(this).children().toggle('medium');
+	$('#reveal').on('click', 'div', null, function (e) {
+		$(this).children('ul').toggle('medium');
 	});
 });

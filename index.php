@@ -107,11 +107,12 @@ if ($user_id) {
       <span class="span10">  
          <h1>Welcome to Reelife, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
       <?php } ?>
+      <h2>You have 7 seconds... make it count</h2>
     </span>
     <span class="span8 offset2">
-      <h2>You have 7 seconds... make it count</h2>
-      <div><h2>what exactly is Reelife?</h2>
-        <ul id="reveal">
+      
+      <div id='reveal'><h3>what exactly is Reelife?</h3>
+        <ul>
           <li>HEllo</li>
           <li>This</li>
         </ul>
