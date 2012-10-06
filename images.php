@@ -143,7 +143,7 @@ if ($user_id) {
               $picture = idx($photo, 'picture');
               $link = idx($photo, 'source');
               $likes = idx($photo, 'likes');
-              if ($likes != NULL)
+              if ($likes != null)
                 $likeNum = idx($likes, 'data');
               else 
                 $likeNum = 0;
