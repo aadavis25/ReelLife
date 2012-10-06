@@ -123,7 +123,7 @@ if ($user_id) {
       <div class="span12 well titletext" style="float: left; color: #fff;">
         <h1 class="offset1" style="margin-top: -5px;">
           <?php if (isset($basic)) { ?>
-            Aaron Mitchell Davis
+            <?php echo he(idx($basic, 'name')); ?>
             </h1>
         <img id="picture" src="https://graph.facebook.com/1542000160/picture?type=normal" style="margin-top: -45px;">
           <?php } else{ ?>
