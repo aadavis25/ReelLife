@@ -121,8 +121,7 @@ if ($user_id) {
       <?php if (isset($basic)) { ?>
       <div class="row">
       <div class="well titletext">
-        <img class="span2" id="picture" src="https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal">
-        <br>
+        <img id="picture" src="https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal">
          <h1><?php echo he(idx($basic, 'name')); ?></h1>
       <?php } ?>
       </div> 

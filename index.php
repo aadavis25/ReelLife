@@ -70,7 +70,7 @@ if ($user_id) {
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -87,10 +87,7 @@ if ($user_id) {
 
               <li class="active"><a href="/">Home</a></li>
               <li><a href="images.php">Images</a></li>
-              <?php if (!isset($basic)) { ?>
-                <li><div class="fb-login-button" data-scope="user_likes,user_photos" style="margin-top:10px; "></div></li>
-              <?php }?>
-            </ul>
+                          </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
@@ -99,33 +96,31 @@ if ($user_id) {
 
 
      
-      <?php if (isset($basic)) { ?>
-      <div class="row">
-      <div class="hero-unit span12 titletext" style="border:solid 2px white; color:#fff;">
-        <img class="span2" id="picture" src="https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal">
-        <br>
-         <h1>Welcome to your ReelLife, 
+            <div class="row" style="margin-left:-90px">
+      <div class="titletext hero-unit span12" style="border:solid 2px white; color:#fff;float: left;">
+        <img src="https://graph.facebook.com/1542000160/picture?type=normal" style="margin-top:20px;float: left;">
+        
+         <h1 class="offset1">Welcome to your ReelLife, 
           <br>
-          <span style="text-decoration:underline"><?php echo he(idx($basic, 'name')); ?></span></h1>
-      <?php } ?>
-      <h2 class="offset2">You have 7 seconds to capture a moment... make it count!</h2>
+          <span style="text-decoration:underline">Aaron Mitchell Davis</span></h1>
+            <h2 class="offset1">You have 7 seconds to capture a moment... make it count!</h2>
       </div> 
     <span class="span9 offset2 ">
       <div class="well"><h3 class="reveal">What exactly is ReelLife?</h3>
-        <ul>
+        <ul style="display: none; ">
           <li>ReelLife is a mobile app that will prompt the user to take pictures at random times during the day when his or her phone is in use.</li>
           <li>Over time, the user and his or her friends will have a story of photos with which to look back on their <strong>"reel"</strong> lives.</li>
         </ul>
       </div>
       <div class="well"><h3 class="reveal">How does ReelLife work?</h3>
-        <ul>
+        <ul style="display: none; ">
           <li>The app will notify the user with instructions for the upcoming photo to be taken at a random time during the day (within reasonable hours). A countdown from 7 seconds will then begin. </li>
           <li>The user will have those seconds to take the most <strong>fantastic</strong> picture based on the theme given to them.</li>
           <li>Their photo will go up against their friends' photos to be judged and voted on by the group.</li>
         </ul>
       </div>
       <div class="well"><h3 class="reveal">What's awesome about ReelLife?</h3>
-        <ul>
+        <ul style="display: none; ">
           <li>Get the most likes on your reel.</li>
           <li>Show off your moment capturing skills.</li>
           <li>Keep the reels going with your friends, capture awesome moments in your <strong>"reel"</strong> lives!</li>
