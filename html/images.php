@@ -80,8 +80,8 @@ if ($user_id) {
           <a class="brand" href="#">ReelLife</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="html/images">Images</a></li>
+              <li><a href="/">Home</a></li>
+              <li class="active"><a href="html/images">Images</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
