@@ -143,6 +143,7 @@ if ($user_id) {
               $picture = idx($photo, 'picture');
               $link = idx($photo, 'source');
               $likes = idx($photo, 'likes')
+              $likeNum = idx($likes, 'data?limit=200')
               //$class =  'offset'.($i++%12);
           ?>
           
