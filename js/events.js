@@ -2,6 +2,6 @@ $(document).ready(function () {
 
 	$('#reveal').on('click', 'h3', null, function (e) {
 		alert('woo');
-		$(this).children('.hidden').toggle();
+		$(this).children().toggle();
 	});
 });
