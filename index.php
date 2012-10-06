@@ -77,7 +77,7 @@ if ($user_id) {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <img src="/icon/favicon.ico">
+          <div><img src="/icon/favicon.ico"></div>
           <a class="brand" href="#">ReelLife</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
