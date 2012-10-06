@@ -150,7 +150,7 @@ if ($user_id) {
               $class =  'offset'.($i++%12);
           ?>
           
-            <div class = "offset:<?php echo $class?>>
+            <div class = "offset:<?php echo $class?>">
               <h4>Likes : <?php echo $likeNum?></h4>
               <a href="<?php echo he($link); ?>" target="_top"><img src=<?php echo he($picture); ?> class="<?php //echo $class; ?>margin:0 10px 0 10px"></a>
             </div>
