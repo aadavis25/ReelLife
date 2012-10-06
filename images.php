@@ -124,7 +124,7 @@ if ($user_id) {
       <span><strong><h3><?php echo he(idx($basic, 'name')); ?></strong></h3></span>
       </div>
       <?php } ?>
-    <span class="span12 offset2">
+    <span class="span10">
       <div id="gallery"><h3>Check out your ReelLife</h3><ul>
           <?php
            $albums = idx($facebook->api('/me/albums/'), 'data', array());
