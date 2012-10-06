@@ -151,7 +151,7 @@ if ($user_id) {
           
             <div class = "offset:<?php echo $class?>">
               <h4>Likes : <?php echo $likeNum?></h4>
-              <a href="<?php echo he($link); ?>" target="_top"><img src=<?php echo he($link); ?>height:50%; width:50%;></a>
+              <a href="<?php echo he($link); ?>" target="_top"><img src=<?php echo he($link); ?>style:"height:50%; width:50%;"></a>
             </div>
           <?php
             }
