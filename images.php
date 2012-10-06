@@ -143,10 +143,10 @@ if ($user_id) {
               $picture = idx($photo, 'picture');
               $link = idx($photo, 'link');
 
-              $class =  'offset'.($i++%12);
+              //$class =  'offset'.($i++%12);
           ?>
           
-            <a href="<?php echo he($link); ?>" target="_top"><img src=<?php echo he($picture); ?> class="<?php echo $class; ?>"></a>
+            <a href="<?php echo he($link); ?>" target="_top"><img src=<?php echo he($picture); ?>></a>
           <?php
             }
           ?>
