@@ -16,7 +16,8 @@ var cont_left = $(".container").position().left;
             // hover in
             $(this).parent().parent().css("z-index", 1);
             $(this).animate({
-         
+               height: "120%",
+               width: "120%",
                left: "-=50",
                top: "-=50"
             }, "fast");
@@ -24,7 +25,8 @@ var cont_left = $(".container").position().left;
             // hover out
             $(this).parent().parent().css("z-index", 0);
             $(this).animate({
-                
+                height: "100%",
+                width: "100%",
                 left: "+=50",
                top: "+=50"
             }, "fast");
