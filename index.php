@@ -107,7 +107,7 @@ if ($user_id) {
       <?php } ?>
       <h2>You have 7 seconds to capture a moment... make it count!</h2>
       </div> 
-    <span class="span8 offset2 ">
+    <span class="span9 offset2 ">
       <div class="bodytext"><h3 class="reveal">What exactly is ReelLife?</h3>
         <ul>
           <li>ReelLife is a mobile app that will prompt the user to take pictures at random times during the day when his or her phone is in use.</li>
