@@ -147,7 +147,7 @@ if ($user_id) {
 
               $class = ($i++ % 4 === 0) ? 'first-column' : '';
           ?>
-          <li style="background: url(<?php echo he($picture); ?>) no-repeat; background-size:400px; height:200px;" class="<?php echo $class; ?>">
+          <li> <img src=<?php echo he($picture); ?> class="<?php echo $class; ?>">
             <a href="<?php echo he($link); ?>" target="_top"></a>
           </li>
           <?php
