@@ -114,7 +114,7 @@ if ($user_id) {
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" style:"margin-top:25px;">
 
 
      
@@ -125,7 +125,7 @@ if ($user_id) {
           <?php if (isset($basic)) { ?>
             <?php echo he(idx($basic, 'name')); ?>
             </h1>
-        <img id="picture" src="https://graph.facebook.com/1542000160/picture?type=normal" style="margin-top: -45px;">
+        <img id="picture" src="https://graph.facebook.com/<?php echo he(idx($basic, 'id')); ?>/picture?type=normal" style="margin-top: -45px;">
           <?php } else{ ?>
             ReelLife
             </h1>
