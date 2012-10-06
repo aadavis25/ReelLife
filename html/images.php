@@ -97,7 +97,7 @@ if ($user_id) {
       <span class="span1" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
       <strong><?php echo he(idx($basic, 'name')); ?></strong>
       </div>
-
+      <?php } ?>
     <span class="span8">
       <div><h3><u>Check out your ReelLife</u></h3>
         <ul class="photos">
@@ -110,7 +110,6 @@ if ($user_id) {
               $link = idx($photo, 'link');
 
               $class = ($i++ % 4 === 0) ? 'first-column' : '';
-            }
           ?>
           <li style="background-image: url(<?php echo he($picture); ?>);" class="<?php echo $class; ?>">
             <a href="<?php echo he($link); ?>" target="_top"></a>
