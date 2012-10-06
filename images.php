@@ -103,6 +103,7 @@ if ($user_id) {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
+          <img class="brand" src="/ico/favicon.ico">
           <a class="brand" href="#">ReelLife</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
@@ -123,7 +124,7 @@ if ($user_id) {
       <span><strong><h3><?php echo he(idx($basic, 'name')); ?></strong></h3></span>
       </div>
       <?php } ?>
-    <span class="span12">
+    <span class="span12 offset2">
       <div id="gallery"><h3>Check out your ReelLife</h3><ul>
           <?php
            $albums = idx($facebook->api('/me/albums/'), 'data', array());
