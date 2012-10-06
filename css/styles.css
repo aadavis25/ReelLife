@@ -2,6 +2,10 @@ body{
 	background: url(../images/bg.png) repeat-y;
 	background-size:100%;
 }
+#transbox{
+	background-color:#cccccc;
+	opacity:25%;
+}
 .reveal{
 	text-decoration:underline;
 }
