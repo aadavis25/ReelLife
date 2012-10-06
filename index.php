@@ -83,7 +83,6 @@ if ($user_id) {
             <ul class="nav">
               <li class="active"><a href="/">Home</a></li>
               <li><a href="images.php">Images</a></li>
-              <li><a href="contact">Contact</a></li>
               <?php if (!isset($basic)) { ?>
                 <li><div class="fb-login-button" data-scope="user_likes,user_photos" style="margin-top:10px; "></div></li>
               <?php }?>
@@ -101,11 +100,11 @@ if ($user_id) {
       <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
       <div>
       <span class="span10">  
-         <h1>Welcome to your ReelLife, <strong><style = "text:decoration">underline<?php echo he(idx($basic, 'name')); ?></style></strong></h1>
+         <h1>Welcome to your ReelLife, <strong><style = "text-decoration:underline"><?php echo he(idx($basic, 'name')); ?></style></strong></h1>
       <?php } ?>
       <h2>You have 7 seconds to capture a moment... make it count!</h2>
     </span>
-    <span class="span8 offset1">
+    <span class="span8">
       <div><h3 class="reveal">What exactly is ReelLife?</h3>
         <ul>
           <li>ReelLife is a mobile app that will prompt the user to take pictures at random times during the day when his or her phone is in use.</li>
