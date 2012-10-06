@@ -81,7 +81,7 @@ if ($user_id) {
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="html/images">Images</a></li>
+              <li><a href="html/images.php">Images</a></li>
               <li><a href="#contact">Contact</a></li>
               <li><div class="fb-login-button" data-scope="user_likes,user_photos" style="marigin-top:5px;"></div></li>
             </ul>
