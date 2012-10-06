@@ -105,20 +105,11 @@ if ($user_id) {
       <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
       <div>
       <span class="span10">  
-         <h1>Welcome to ReeLife, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
+         <h1>Welcome to your ReeLife, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
       <?php } ?>
       <h2>You have 7 seconds... make it count</h2>
     </span>
     <span class="span8 offset1">
-      
-      <div><h3 id="reveal">what exactly is ReeLife?</h3>
-        <ul>
-          <li>ReeLife will prompt the user to take pictures at random times when the phone is in use.</li>
-          <li>The phone will buzz and a countdown from 7 seconds will begin. </li>
-          <li>The user will have those seconds to take the most <strong>fantastic</strong> picture based on the theme of the day</li>
-          <li>Their photo will go up against their friends' photos to be judged by the group.</li>
-        </ul>
-      </div>
       <div><h3 id="reveal">what exactly is ReeLife?</h3>
         <ul>
           <li>ReeLife will prompt the user to take pictures at random times when the phone is in use.</li>
