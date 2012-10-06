@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>ReelLife, 7 seconds... make it count</title>
+    <title>ReelLife</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A social picture taking competition among friends">
     <meta name="author" content="Aaron Davis">
@@ -135,7 +135,7 @@ if ($user_id) {
           <?php
            $albums = idx($facebook->api('/me/albums/'), 'data', array());
            foreach ($albums as $album)
-              if (idx($album, 'name') == "Reelife Photos"){
+              if (idx($album, 'name') == "ReelLife Photos"){
                 $albumid = idx($album, 'id');
                 break;
               }
