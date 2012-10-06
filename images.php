@@ -145,7 +145,7 @@ if ($user_id) {
                 $albumid = idx($album, 'id');
                 break;
               }
-            if ($albumid!=NULL){
+            
               $photos = idx($facebook->api($albumid . '/photos?limit=200'), 'data', array());
               $i = 0;
               foreach ($photos as $photo) {
@@ -167,9 +167,9 @@ if ($user_id) {
             </li>
           
           <?php
-            }
+            
           }
-          else 
+          if($albumid==NULL)
             echo "You have no pictures in your ReelLife album! Get the app and start your reel!";
           ?>
         </ul>
