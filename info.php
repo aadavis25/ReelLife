@@ -9,7 +9,7 @@
     
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    
+    <link href="css/jquery.lightbox-0.5.css" rel="stylesheet">
     <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
@@ -66,98 +66,7 @@ if ($user_id) {
   }
 }
  ?>
-  </head>
-
-  <body>
-
-      <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          
-          <img class="brand" src="/ico/favicon.ico">
-          <a class="brand" href="#">ReelLife</a>
-
-          <div class="nav-collapse collapse">
-            
-            <ul class="nav">
-
-              <li class="active"><a href="/">Home</a></li>
-              <li><a href="images.php">Images</a></li>
-              <li><a href="info.php">Info</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-    </div>
-    
-    <div class="container">
-    <div class="row" style="margin-left:-90px">
-      <div class="titletext hero-unit span12" style="border:solid 2px white; color:#fff;float: left;">
-        <?php if (isset($basic)) { ?>
-        <img src="https://graph.facebook.com/<?php echo he(idx($basic, 'id')); ?>/picture?type=normal" style="margin-top:20px;float: left;">
-        <?php } ?>
-         <h1 class="offset1">Welcome to your ReelLife
-        <?php if (isset($basic)) { ?>,
-          <br>
-          <span style="text-decoration:underline"><?php echo he(idx($basic, 'name')); ?> </span></h1>
-          <?php } ?>
-          <h2 class="offset1">You have 7 seconds to capture a moment... make it count!</h2>
-      </div> 
-    <span class="span9 offset2 ">
-      <div class="well"><h3 class="reveal">What exactly is ReelLife?</h3>
-        <ul style="display: none; ">
-          <li>ReelLife is a mobile app that will prompt the user to take pictures at random times during the day when his or her phone is in use.</li>
-          <li>Over time, the user and his or her friends will have a story of photos with which to look back on their <strong>"reel"</strong> lives.</li>
-        </ul>
-      </div>
-      <div class="well"><h3 class="reveal">How does ReelLife work?</h3>
-        <ul style="display: none; ">
-          <li>The app will notify the user with instructions for the upcoming photo to be taken at a random time during the day (within reasonable hours). A countdown from 7 seconds will then begin. </li>
-          <li>The user will have those seconds to take the most <strong>fantastic</strong> picture based on the theme given to them.</li>
-          <li>Their photo will go up against their friends' photos to be judged and voted on by the group.</li>
-        </ul>
-      </div>
-      <div class="well"><h3 class="reveal">What's awesome about ReelLife?</h3>
-        <ul style="display: none; ">
-          <li>Get the most likes on your reel.</li>
-          <li>Show off your moment capturing skills.</li>
-          <li>Keep the reels going with your friends, capture awesome moments in your <strong>"reel"</strong> lives!</li>
-        </ul>
-      </div>
-      </span>
-   
-  </div>
-</div><!-- /container -->
-<div class="well" style="background-color:#ddd; margin-left:10px; margin-right:10px;">
-      <div class="brand fb-login-button" data-show-faces="true" data-width="200" data-max-rows="1"></div>
-</div>
-
-
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap-transition.js"></script>
-    <script src="js/bootstrap-alert.js"></script>
-    <script src="js/bootstrap-modal.js"></script>
-    <script src="js/bootstrap-dropdown.js"></script>
-    <script src="js/bootstrap-scrollspy.js"></script>
-    <script src="js/bootstrap-tab.js"></script>
-    <script src="js/bootstrap-tooltip.js"></script>
-    <script src="js/bootstrap-popover.js"></script>
-    <script src="js/bootstrap-button.js"></script>
-    <script src="js/bootstrap-collapse.js"></script>
-    <script src="js/bootstrap-carousel.js"></script>
-    <script src="js/bootstrap-typeahead.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
-    <script src="js/events.js"></script>
-    <script type="text/javascript">
+ <script type="text/javascript">
       window.fbAsyncInit = function() {
         FB.init({
           appId      : '<?php echo AppInfo::appID(); ?>', // App ID
@@ -182,6 +91,68 @@ if ($user_id) {
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
+  </head>
+
+  <body>
+    
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <img class="brand" src="/ico/favicon.ico">
+          <a class="brand" href="/">ReelLife</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="/">Home</a></li>
+              <li><a href="images.php">Images</a></li>
+              <li class="active"><a href="info.php">Info</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <div class="container">
+
+<div class="hero-unit"> 
+  <ul>
+    <li>Kai Leith</li>
+    <li>Patrick Gray</li>
+    <li>Jonathon Moran</li>
+    <li>Aaron Davis</li>
+  </ul>
+</div>
+     
+      
+      
+<div class="well" style="background-color:#ddd; margin-left:10px; margin-right:10px;">
+      <div class="brand fb-login-button" data-show-faces="true" data-width="200" data-max-rows="1"></div>
+</div>
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+    <script src="js/events.js"></script>
+    <script src="js/jquery.lightbox-0.5.js"></script>
+    
     
 
     
