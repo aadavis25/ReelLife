@@ -79,8 +79,9 @@ if ($user_id) {
           </a>
 
           <a class="brand" href="#">ReelLife</a>
-          <img src="/ico/favicon.ico">
+
           <div class="nav-collapse collapse">
+            <img src="/ico/favicon.ico">
             <ul class="nav">
 
               <li class="active"><a href="/">Home</a></li>
