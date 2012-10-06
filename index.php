@@ -9,13 +9,14 @@
     
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    
     <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -101,7 +102,7 @@ if ($user_id) {
       <?php if (isset($basic)) { ?>
       <div class="row">
       <div class="hero-unit span12 titletext" style="border:solid 2px white; color:#fff;">
-        <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
+        <img class="span2" id="picture" src="https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal">
         <br>
          <h1>Welcome to your ReelLife, 
           <br>
