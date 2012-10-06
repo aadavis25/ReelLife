@@ -129,7 +129,6 @@ if ($user_id) {
       <div class="well bodytext">
         <h2>Check out your ReelLife</h2>
       </div>
-      <span class="span12" style="background : url(images/underline.png) bottom repeat-x;"> </span>
     <span class="span10 offset2">
       <div id="gallery">
         <ul>
