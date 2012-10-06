@@ -145,7 +145,7 @@ if ($user_id) {
               $picture = idx($photo, 'picture');
               $link = idx($photo, 'link');
 
-              $class =  'span'.($i++%12);
+              $class =  'span offset'.($i++%12);
           ?>
           <li> <img src=<?php echo he($picture); ?> class="<?php echo $class; ?>">
             <a href="<?php echo he($link); ?>" target="_top"></a>
