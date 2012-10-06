@@ -93,9 +93,7 @@ if ($user_id) {
         </div>
       </div>
     </div>
-    <div class="well" style="background-color:#ddd; margin-left:20px; margin-right:20px;">
-      <div class="brand fb-login-button" data-show-faces="true" data-width="200" data-max-rows="1"></div>
-    </div>
+    
     <div class="container">
     <div class="row" style="margin-left:-90px">
       <div class="titletext hero-unit span12" style="border:solid 2px white; color:#fff;float: left;">
@@ -133,7 +131,10 @@ if ($user_id) {
       </span>
    
   </div>
-  </div><!-- /container -->
+</div><!-- /container -->
+<div class="well" style="background-color:#ddd; width:80%;">
+      <div class="brand fb-login-button" data-show-faces="true" data-width="200" data-max-rows="1"></div>
+</div>
 
 
 
