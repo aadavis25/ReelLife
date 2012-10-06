@@ -123,7 +123,7 @@ if ($user_id) {
       <span><strong><h3><?php echo he(idx($basic, 'name')); ?></strong></h3></span>
       </div>
       <?php } ?>
-    <span class="span8">
+    <span class="span12">
       <div><h3>Check out your ReelLife</h3>
           <?php
           ini_set('display_errors', 'On');
@@ -147,7 +147,6 @@ if ($user_id) {
           ?>
           
             <a href="<?php echo he($link); ?>" target="_top"><img src=<?php echo he($picture); ?> class="<?php echo $class; ?>"></a>
-          </li>
           <?php
             }
           ?>
