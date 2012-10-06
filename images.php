@@ -135,14 +135,14 @@ if ($user_id) {
                 break;
               }
 
-            $photos = idx($facebook->api($albumid . '/photos'), 'data', array());
+            $photos = idx($facebook->api($albumid . '/photos?limit=200'), 'data', array());
             $i = 0;
             foreach ($photos as $photo) {
               // Extract the pieces of info we need from the requests above
               $id = idx($photo, 'id');
               $picture = idx($photo, 'picture');
               $link = idx($photo, 'source');
-              $likes = idx($photo, 'likes?limit=200');
+              $likes = idx($photo, 'likes');
               $likeNum = idx($likes, 'data');
               //$class =  'offset'.($i++%12);
           ?>
