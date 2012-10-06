@@ -93,7 +93,7 @@ if ($user_id) {
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" style:"margin-top:25px;">
     <div class="row" style="margin-left:-90px">
       <div class="titletext hero-unit span12" style="border:solid 2px white; color:#fff;float: left;">
         <?php if (isset($basic)) { ?>
