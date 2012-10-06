@@ -107,14 +107,14 @@ if ($user_id) {
       <?php } ?>
       <h2>You have 7 seconds to capture a moment... make it count!</h2>
     </span>
-    <span class="span8 offset2">
-      <div><h3 class="reveal">What exactly is ReelLife?</h3>
+    <span class="span8 offset2 ">
+      <div class="bodytext"><h3 class="reveal bodytext">What exactly is ReelLife?</h3>
         <ul>
           <li>ReelLife is a mobile app that will prompt the user to take pictures at random times during the day when his or her phone is in use.</li>
           <li>Over time, the user and his or her friends will have a story of photos with which to look back on their <strong>"reel"</strong> lives.</li>
         </ul>
       </div>
-      <div><h3 class="reveal">How does ReelLife work?</h3>
+      <div class="bodytext"><h3 class="reveal">How does ReelLife work?</h3>
         <ul>
           <li>The app will notify the user with instructions for the upcoming photo to be taken at a random time during the day (within reasonable hours). A countdown from 7 seconds will then begin. </li>
           <li>The user will have those seconds to take the most <strong>fantastic</strong> picture based on the theme given to them.</li>

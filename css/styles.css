@@ -2,11 +2,14 @@ body{
 	background: url(../images/bg.png) repeat-y;
 	background-size:100%;
 }
-
+.title{
+	border-radius: 10px;
+	background-color: #175e94;
+}
 .reveal{
 	text-decoration:underline;
-	border-radius: 15px;
-	background-color: #eeeeee;
+	border-radius: 10px;
+	background-color: #cccccc;
 }
 .reveal:hover{
     cursor:pointer;
