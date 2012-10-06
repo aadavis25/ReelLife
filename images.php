@@ -125,8 +125,6 @@ if ($user_id) {
       <?php } ?>
     <span class="span8">
       <div><h3>Check out your ReelLife</h3>
-        <div class="list inline">
-        <ul class="photos">
           <?php
           ini_set('display_errors', 'On');
           error_reporting(E_ALL);
@@ -154,7 +152,6 @@ if ($user_id) {
             }
           ?>
         </ul>
-      </div>
       </div>
       </span>
 
