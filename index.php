@@ -78,7 +78,10 @@ if ($user_id) {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
+          <div class="fb-login-button" data-show-faces="true" data-width="200" data-max-rows="1"></div>
+          <?php if (isset($basic)) { ?>
           <img class="brand" src="/ico/favicon.ico">
+          <?php } ?>
           <a class="brand" href="#">ReelLife</a>
 
           <div class="nav-collapse collapse">
