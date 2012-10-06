@@ -135,14 +135,14 @@ if ($user_id) {
           <?php
            $albums = idx($facebook->api('/me/albums/'), 'data', array());
            foreach ($albums as $album)
-              if (idx($album, 'name') == "ReelLife Photos"){
+              if (idx($album, 'name') == "Reelife Photos"){
                 $albumid = idx($album, 'id');
                 break;
               }
-
-            $photos = idx($facebook->api($albumid . '/photos?limit=200'), 'data', array());
-            $i = 0;
-            foreach ($photos as $photo) {
+            if ($albumid != null){
+              $photos = idx($facebook->api($albumid . '/photos?limit=200'), 'data', array());
+              $i = 0;
+              foreach ($photos as $photo) {
               // Extract the pieces of info we need from the requests above
               $id = idx($photo, 'id');
               $name = idx($photo, 'name');
@@ -152,7 +152,7 @@ if ($user_id) {
                 $likeNum = sizeof(idx($likes, 'data'));
               else 
                 $likeNum = 0;
-         
+            
           ?>
           
               <h4>Likes : <?php echo $likeNum?></h4>
@@ -162,6 +162,9 @@ if ($user_id) {
           
           <?php
             }
+          }
+          else 
+            echo "You have no pictures in your ReelLife album! Get the app and start your reel!";
           ?>
         </ul>
       </div>
