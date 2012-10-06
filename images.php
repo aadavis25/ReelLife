@@ -153,7 +153,7 @@ if ($user_id) {
           
               <h4>Likes : <?php echo $likeNum?></h4>
              <li>
-              <a href="<?php echo he($link); ?>" target="_top" title="<?php $name?> Likes = <?php $likeNum?>"><img src=<?php echo he($link); ?> style="height:50%; width:50%;"></a>
+              <a href="<?php echo he($link); ?>" target="_top" title="<?php echo $name?> Likes = <?php echo $likeNum?>"><img src=<?php echo he($link); ?> style="height:50%; width:50%;"></a>
             </li>
           
           <?php
