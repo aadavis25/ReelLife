@@ -3,13 +3,15 @@ body{
 	background-size:100%;
 }
 .title{
-	border-radius: 10px;
+	border-radius: 5px;
 	background-color: #175e94;
+}
+.bodytext{
+	border-radius: 5px;
+	background-color: #cccccc;
 }
 .reveal{
 	text-decoration:underline;
-	border-radius: 10px;
-	background-color: #cccccc;
 }
 .reveal:hover{
     cursor:pointer;
