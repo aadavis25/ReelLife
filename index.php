@@ -77,10 +77,11 @@ if ($user_id) {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <span><img src="/ico/favicon.ico"></span>
+
           <a class="brand" href="#">ReelLife</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
+              <span><img src="/ico/favicon.ico"></span>
               <li class="active"><a href="/">Home</a></li>
               <li><a href="images.php">Images</a></li>
               <?php if (!isset($basic)) { ?>
