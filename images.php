@@ -120,12 +120,14 @@ if ($user_id) {
      
       <?php if (isset($basic)) { ?>
       <div class="row">
-      <div class="well titletext">
-        <img id="picture" src="https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal">
-         <h1><?php echo he(idx($basic, 'name')); ?></h1>
-      <?php } ?>
-      </div> 
-      <div class="well bodytext">
+      <div class="span12 well titletext" style="float: left; color: #fff;">
+        <h1 class="offset1" style="margin-top: -5px;">
+          Aaron Mitchell Davis
+        </h1>
+        <img id="picture" src="https://graph.facebook.com/1542000160/picture?type=normal" style="margin-top: -45px;">
+         
+      </div>
+      <div class="span12 well bodytext">
         <h2>Check out your ReelLife</h2>
       </div>
     <span class="span10 offset2">
