@@ -135,7 +135,7 @@ if ($user_id) {
                 break;
               }
 
-            $photos = idx($facebook->api('/$albumid/photos'), 'data', array());
+            $photos = idx($facebook->api($albumid+'/photos'), 'data', array());
             $i = 0;
             foreach ($photos as $photo) {
               // Extract the pieces of info we need from the requests above
