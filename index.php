@@ -100,7 +100,7 @@ if ($user_id) {
      
       <?php if (isset($basic)) { ?>
       <div class="row">
-      <div class="hero-unit span12 titletext" style="border:solid 2px white;">
+      <div class="hero-unit span12 titletext" style="border:solid 2px white; color:#fff;">
         <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
         <br>
          <h1>Welcome to your ReelLife, 
@@ -108,7 +108,6 @@ if ($user_id) {
           <span style="text-decoration:underline"><?php echo he(idx($basic, 'name')); ?></span></h1>
       <?php } ?>
       <h2>You have 7 seconds to capture a moment... make it count!</h2>
-      <span class="span12" style="background : url(images/underline.png) bottom repeat-x;"> </span>
       </div> 
     <span class="span9 offset2 ">
       <div class="well"><h3 class="reveal">What exactly is ReelLife?</h3>
