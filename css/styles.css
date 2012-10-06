@@ -13,12 +13,16 @@ body{
 	background-color: #cccccc;
 	
 }
+.hero-unit{
+	padding-top:30px;
+	padding-bottom:30px;
+}
 .reveal{
 	text-decoration:underline;
 }
 .reveal:hover{
     cursor:pointer;
-    background: #032946;
+    color: #175e94;
 }​
 .navbar{
 	background: #032946;
