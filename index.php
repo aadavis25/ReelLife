@@ -100,8 +100,8 @@ if ($user_id) {
      
       <?php if (isset($basic)) { ?>
       <div class="row">
-      <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
-      <div class="hero-unit span12">
+      <div class="hero-unit span12" style="background-color:#175e94">
+        <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
         <br>
          <h1>Welcome to your ReelLife, <span style="text-decoration:underline"><?php echo he(idx($basic, 'name')); ?></span></h1>
       <?php } ?>
