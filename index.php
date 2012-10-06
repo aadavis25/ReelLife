@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Reelife, 7 seconds... make it count</title>
+    <title>ReeLife, 7 seconds... make it count</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A social picture taking competition among friends">
     <meta name="author" content="Aaron Davis">
@@ -84,7 +84,7 @@ if ($user_id) {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Reelife</a>
+          <a class="brand" href="#">ReeLife</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li><div class="fb-login-button" data-scope="user_likes,user_photos" style="marigin-top:5px;"></div></li>
@@ -105,16 +105,31 @@ if ($user_id) {
       <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
       <div>
       <span class="span10">  
-         <h1>Welcome to Reelife, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
+         <h1>Welcome to ReeLife, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
       <?php } ?>
       <h2>You have 7 seconds... make it count</h2>
     </span>
     <span class="span8 offset1">
       
-      <div><h3 id="reveal">what exactly is Reelife?</h3>
+      <div><h3 id="reveal">what exactly is ReeLife?</h3>
         <ul>
-          <li>HEllo</li>
-          <li>This</li>
+          <li>ReeLife will prompt the user to take pictures at random times when the phone is in use.</li>
+          <li>The phone will buzz and a countdown from 7 seconds will begin. </li>
+          <li>The user will have those seconds to take the most <strong>fantastic</strong> picture based on the theme of the day</li>
+          <li>Their photo will go up against their friends' photos to be judged by the group.</li>
+        </ul>
+      </div>
+      <div><h3 id="reveal">what exactly is ReeLife?</h3>
+        <ul>
+          <li>ReeLife will prompt the user to take pictures at random times when the phone is in use.</li>
+          <li>Over time, the user and their friends will look back on their <strong>reel</strong> lives</li>
+        </ul>
+      </div>
+      <div><h3 id="reveal">how does ReeLife work?</h3>
+        <ul>
+          <li>The phone will buzz and a countdown from 7 seconds will begin. </li>
+          <li>The user will have those seconds to take the most <strong>fantastic</strong> picture based on the theme of the day</li>
+          <li>Their photo will go up against their friends' photos to be judged by the group.</li>
         </ul>
       </div>
       </span>
