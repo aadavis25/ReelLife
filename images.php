@@ -148,7 +148,7 @@ if ($user_id) {
           ?>
           
             <div>
-              <h4>Likes:<?php echo sizeof($likes)?></h4>
+              <h4>Likes:<?php echo sizeof($likeNum)?></h4>
               <a href="<?php echo he($link); ?>" target="_top"><img src=<?php echo he($picture); ?> class="<?php //echo $class; ?>maregin:0 10px 0 10px"></a>
             </div>
           <?php
