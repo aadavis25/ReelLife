@@ -10,6 +10,7 @@
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/jquery.lightbox-0.5.css" rel="stylesheet">
     <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
@@ -181,6 +182,7 @@ if ($user_id) {
     <script src="js/bootstrap-typeahead.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
     <script src="js/events.js"></script>
+    <script src="js/jquery.lightbox-0.5.js"></script>
     
     
 
