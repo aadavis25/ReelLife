@@ -72,7 +72,7 @@ if ($user_id) {
 
       <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
-        <div class="container" style="margin-top:25px;">
+        <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -93,7 +93,9 @@ if ($user_id) {
         </div>
       </div>
     </div>
-    <div class="brand fb-login-button" data-show-faces="true" data-width="200" data-max-rows="1" style="margin-left:20px;"></div>
+    <div class="well" style="background-color:#ddd">
+      <div class="brand fb-login-button" data-show-faces="true" data-width="200" data-max-rows="1"></div>
+    </div>
     <div class="container">
     <div class="row" style="margin-left:-90px">
       <div class="titletext hero-unit span12" style="border:solid 2px white; color:#fff;float: left;">
