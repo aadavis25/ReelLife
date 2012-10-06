@@ -17,14 +17,14 @@ var cont_left = $(".container").position().left;
             $(this).parent().parent().css("z-index", 1);
             $(this).animate({
                height: "70%",
-               width: "70%",
+               width: "70%"
             }, "fast");
         }, function() {
             // hover out
             $(this).parent().parent().css("z-index", 0);
             $(this).animate({
                 height: "50%",
-                width: "50%",
+                width: "50%"
             }, "fast");
         });
 
