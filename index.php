@@ -100,25 +100,25 @@ if ($user_id) {
       <span class="span10">  
          <h1>Welcome to your ReelLife, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
       <?php } ?>
-      <h2>You have 7 seconds... make it count</h2>
+      <h2>You have 7 seconds to capture a moment... make it count!</h2>
     </span>
     <span class="span8 offset1">
-      <div><h3 class="reveal">what exactly is ReelLife?</h3>
+      <div><h3 class="reveal">What exactly is ReelLife?</h3>
         <ul>
-          <li>ReelLife will prompt the user to take pictures at random times when the phone is in use.</li>
-          <li>Over time, the user and their friends will look back on their <strong>reel</strong> lives</li>
+          <li>ReelLife is a mobile app that will prompt the user to take pictures at random times during the day when his or her phone is in use.</li>
+          <li>Over time, the user and his or her friends will have a story of photos with which to look back on their <strong>"reel"</strong> lives.</li>
         </ul>
       </div>
-      <div><h3 class="reveal">how does ReelLife work?</h3>
+      <div><h3 class="reveal">How does ReelLife work?</h3>
         <ul>
-          <li>The phone will buzz and a countdown from 7 seconds will begin. </li>
-          <li>The user will have those seconds to take the most <strong>fantastic</strong> picture based on the theme of the day</li>
-          <li>Their photo will go up against their friends' photos to be judged by the group.</li>
+          <li>The app will notify the user with instructions for the upcoming photo to be taken at a random time during the day (within reasonable hours). A countdown from 7 seconds will then begin. </li>
+          <li>The user will have those seconds to take the most <strong>fantastic</strong> picture based on the theme given to them.</li>
+          <li>Their photo will go up against their friends' photos to be judged and voted on by the group.</li>
         </ul>
       </div>
       </span>
     <div> 
-      <h2>You friends are using it too!</h2>
+      <h2>Your friends are using it too!</h2>
     </div>
 
 
