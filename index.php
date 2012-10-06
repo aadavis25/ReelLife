@@ -93,17 +93,17 @@ if ($user_id) {
       </div>
     </div>
     <div class="container">
-
-
-     
-            <div class="row" style="margin-left:-90px">
+    <div class="row" style="margin-left:-90px">
       <div class="titletext hero-unit span12" style="border:solid 2px white; color:#fff;float: left;">
-        <img src="https://graph.facebook.com/1542000160/picture?type=normal" style="margin-top:20px;float: left;">
-        
-         <h1 class="offset1">Welcome to your ReelLife, 
+        <?php if (isset($basic)) { ?>
+        <img src="https://graph.facebook.com/<?php echo he(idx($basic, 'id')); ?>/picture?type=normal" style="margin-top:20px;float: left;">
+        <?php } ?>
+         <h1 class="offset1">Welcome to your ReelLife
+        <?php if (isset($basic)) { ?>,
           <br>
-          <span style="text-decoration:underline">Aaron Mitchell Davis</span></h1>
-            <h2 class="offset1">You have 7 seconds to capture a moment... make it count!</h2>
+          <span style="text-decoration:underline"><?php echo he(idx($basic, 'name')); ?> </span></h1>
+          <?php } ?>
+          <h2 class="offset1">You have 7 seconds to capture a moment... make it count!</h2>
       </div> 
     <span class="span9 offset2 ">
       <div class="well"><h3 class="reveal">What exactly is ReelLife?</h3>
