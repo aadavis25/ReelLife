@@ -131,7 +131,7 @@ if ($user_id) {
           error_reporting(E_ALL);
            $albums = idx($facebook->api('/me/albums/'), 'data', array());
            foreach ($albums as $album)
-              if (idx($album, 'name') == "Cover Photos"){
+              if (idx($album, 'name') == "ReelLife Photos"){
                 $albumid = idx($album, 'id');
                 break;
               }
