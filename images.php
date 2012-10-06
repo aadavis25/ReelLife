@@ -128,8 +128,14 @@ if ($user_id) {
         <div class="list inline">
         <ul class="photos">
           <?php
-           $photos = idx($facebook->api('/me/photos/Cover-Photos'), 'data', array());
+           $albums = idx($facebook->api('/me/albums/'), 'data', array());
+           foreach ($albums as $album)
+              if (idx($album, 'name') == "Cover Photos"){
+                $albumid = idx($album, 'id');
+                break;
+              }
 
+            $photos = idx($facebook->api('/$albumid/photos'), 'data', array());
             $i = 0;
             foreach ($photos as $photo) {
               // Extract the pieces of info we need from the requests above
