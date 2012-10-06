@@ -3,7 +3,7 @@ $(document).ready(function () {
         var ul = $(this).next("ul");
                 ul.slideUp();
         });
-    });
+	
 $(".reveal").each(function(element){   
     $(this).click(function(){    
         var ul = $(this).next("ul");

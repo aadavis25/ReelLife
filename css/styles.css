@@ -5,9 +5,6 @@ body{
 .reveal{
 	text-decoration:underline;
 }
-.reveal + ul{
-	visibility: hidden;
-}
 .reveal:hover{
     cursor:pointer;
     background: #032946;
