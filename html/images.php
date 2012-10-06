@@ -110,6 +110,7 @@ if ($user_id) {
               $link = idx($photo, 'link');
 
               $class = ($i++ % 4 === 0) ? 'first-column' : '';
+            }
           ?>
           <li style="background-image: url(<?php echo he($picture); ?>);" class="<?php echo $class; ?>">
             <a href="<?php echo he($link); ?>" target="_top"></a>
