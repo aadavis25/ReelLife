@@ -4,7 +4,8 @@ body{
 }
 #transbox{
 	background-color:#cccccc;
-	opacity:25%;
+	opacity:0.25;
+	width:75%;
 }
 .reveal{
 	text-decoration:underline;
