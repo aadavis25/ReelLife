@@ -93,7 +93,7 @@ if ($user_id) {
         </div>
       </div>
     </div>
-    <div class="well" style="background-color:#ddd">
+    <div class="well" style="background-color:#ddd; margin-left:20px; margin-right:20px;">
       <div class="brand fb-login-button" data-show-faces="true" data-width="200" data-max-rows="1"></div>
     </div>
     <div class="container">
