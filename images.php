@@ -114,7 +114,7 @@ if ($user_id) {
         </div>
       </div>
     </div>
-    <div class="container" style:"margin-top:25px;">
+    <div class="container">
 
 
      
@@ -178,6 +178,9 @@ if ($user_id) {
 
 
     </div> 
+<div class="well" style="background-color:#ddd; margin-left:10px; margin-right:10px;">
+      <div class="brand fb-login-button" data-show-faces="true" data-width="200" data-max-rows="1"></div>
+</div>
 
 
     <!-- Le javascript
