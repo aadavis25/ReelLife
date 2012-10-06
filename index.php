@@ -107,7 +107,7 @@ if ($user_id) {
           <br>
           <span style="text-decoration:underline"><?php echo he(idx($basic, 'name')); ?></span></h1>
       <?php } ?>
-      <h2>You have 7 seconds to capture a moment... make it count!</h2>
+      <h2 class="offset2">You have 7 seconds to capture a moment... make it count!</h2>
       </div> 
     <span class="span9 offset2 ">
       <div class="well"><h3 class="reveal">What exactly is ReelLife?</h3>

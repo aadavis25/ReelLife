@@ -1,16 +1,17 @@
+*{
+	font-family: Avenir,
+             sans-serif;
+}
 body{
 	background: url(../images/bg.png) repeat-y;
 	background-size:100%;
 }
 .titletext{
-	border-radius: 5px;
 	background-color: #175e94;
-	margin:10px;
 }
 .bodytext{
-	border-radius: 5px;
 	background-color: #cccccc;
-	margin:10px;
+	
 }
 .reveal{
 	text-decoration:underline;
