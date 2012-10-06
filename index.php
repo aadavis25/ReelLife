@@ -42,7 +42,6 @@
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#images">Images</a></li>
               <li><a href="#contact">Contact</a></li>
-              <li><div class="fb-login-button" data-scope="user_likes,user_photos"></div></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
