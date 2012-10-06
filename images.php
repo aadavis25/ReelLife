@@ -120,7 +120,7 @@ if ($user_id) {
       <?php if (isset($basic)) { ?>
       <div class="row">
       <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
-      <span><strong><?php echo he(idx($basic, 'name')); ?></strong></span>
+      <span><strong><h3><?php echo he(idx($basic, 'name')); ?></strong></h3></span>
       </div>
       <?php } ?>
     <span class="span8">
