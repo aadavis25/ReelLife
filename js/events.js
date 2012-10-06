@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $("#reveal").click(function(){
+    $("#reveal").each( function(index, element){$(element).click(function(){
     	var ul = $(this).next("ul");
     	console.log(ul);
     	if (ul.is(":hidden")) {
@@ -8,5 +8,6 @@ $(document).ready(function () {
     	} else {
         	ul.slideUp();
     	}
+    }
 	});
 });
