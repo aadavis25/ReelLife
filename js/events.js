@@ -32,4 +32,7 @@ var cont_left = $(".container").position().left;
             var left = (index * 160) + cont_left;
             $(this).css("left", left + "px");
         });
+
+        $("a img").click(function() {
+        	$(this).lightbox()
 });
