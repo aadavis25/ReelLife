@@ -78,7 +78,7 @@ if ($user_id) {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <div class="brand fb-login-button" data-show-faces="true" data-width="200" data-max-rows="1"></div>
+          
           <img class="brand" src="/ico/favicon.ico">
           <a class="brand" href="#">ReelLife</a>
 
@@ -93,7 +93,8 @@ if ($user_id) {
         </div>
       </div>
     </div>
-    <div class="container" style:"margin-top:25px;">
+    <div class="brand fb-login-button" data-show-faces="true" data-width="200" data-max-rows="1" style="margin-left:20px;"></div>
+    <div class="container">
     <div class="row" style="margin-left:-90px">
       <div class="titletext hero-unit span12" style="border:solid 2px white; color:#fff;float: left;">
         <?php if (isset($basic)) { ?>
