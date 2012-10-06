@@ -15,4 +15,5 @@ $(".reveal").each(function(element){
     $(function() {
         $('#gallery a').lightBox();
     });
+});
     
