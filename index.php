@@ -87,6 +87,7 @@ if ($user_id) {
           <a class="brand" href="#">Reelife</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
+              <li><div class="fb-login-button" data-scope="user_likes,user_photos"></div></li>
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#images">Images</a></li>
               <li><a href="#contact">Contact</a></li>
@@ -95,7 +96,6 @@ if ($user_id) {
         </div>
       </div>
     </div>
-    <div class="fb-login-button" data-scope="user_likes,user_photos"></div>
     <div class="container">
 
 
