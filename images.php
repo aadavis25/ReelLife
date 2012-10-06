@@ -95,7 +95,6 @@ if ($user_id) {
 
   <body>
     
-    <a href="index3.php">here</a>
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
