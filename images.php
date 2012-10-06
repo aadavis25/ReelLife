@@ -145,11 +145,13 @@ if ($user_id) {
               $likes = idx($photo, 'likes');
               if ($likes != NULL)
                 $likeNum = idx($likes, 'data');
+              else 
+                $likeNum = 0;
               //$class =  'offset'.($i++%12);
           ?>
           
             <div>
-              <h4>Likes:<?php echo sizeof($likeNum)?></h4>
+              <h4>Likes : <?php echo sizeof($likeNum)?></h4>
               <a href="<?php echo he($link); ?>" target="_top"><img src=<?php echo he($picture); ?> class="<?php //echo $class; ?>maregin:0 10px 0 10px"></a>
             </div>
           <?php
