@@ -117,9 +117,10 @@ if ($user_id) {
         </ul>
       </div>
       </span>
-    <span> 
-      You friends are using it too!
-           
+    <div> 
+      <h2>You friends are using it too!</h2>
+    </div>
+
 
 
     </div> 

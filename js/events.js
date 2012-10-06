@@ -18,8 +18,6 @@ var cont_left = $(".container").position().left;
             $(this).animate({
                height: "70%",
                width: "70%",
-               left : "30%",
-               top : "30%"
             }, "fast");
         }, function() {
             // hover out
@@ -27,8 +25,6 @@ var cont_left = $(".container").position().left;
             $(this).animate({
                 height: "50%",
                 width: "50%",
-                top : "50%",
-                left : "50%"
             }, "fast");
         });
 

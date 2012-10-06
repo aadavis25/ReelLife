@@ -1,9 +1,8 @@
 .reveal{
 	text-decoration:underline;
+	visibility: hidden;
 }
 .reveal:hover{
     cursor:pointer;
+    background-color: '6cb0e4';
 }​
-h4 + (a > img){
-	
-}
