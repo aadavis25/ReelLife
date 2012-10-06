@@ -12,7 +12,7 @@ $(".reveal").each(function(element){
         });
     });
 var cont_left = $("#container").position().left;
-        $("a img").hover(function() {
+        $("a > img").hover(function() {
             // hover in
             $(this).parent().parent().css("z-index", 1);
             $(this).animate({
