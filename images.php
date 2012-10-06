@@ -147,12 +147,12 @@ if ($user_id) {
                 $likeNum = sizeof(idx($likes, 'data'));
               else 
                 $likeNum = 0;
-              //$class =  'offset'.($i++%12);
+              $class =  'offset'.($i++%12);
           ?>
           
-            <div>
+            <div class = "offset:<?php echo $class?>>
               <h4>Likes : <?php echo $likeNum?></h4>
-              <a href="<?php echo he($link); ?>" target="_top"><img src=<?php echo he($picture); ?> class="<?php //echo $class; ?>maregin:0 10px 0 10px"></a>
+              <a href="<?php echo he($link); ?>" target="_top"><img src=<?php echo he($picture); ?> class="<?php //echo $class; ?>margin:0 10px 0 10px"></a>
             </div>
           <?php
             }
