@@ -121,12 +121,12 @@ if ($user_id) {
       <?php if (isset($basic)) { ?>
       <div class="row">
       <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
-      <div class="titletext">
+      <div class="well">
       
          <h1><?php echo he(idx($basic, 'name')); ?></h1>
       <?php } ?>
       </div> 
-      <div class="bodytext">
+      <div class="well">
         <h2>Check out your ReelLife</h2>
       </div>
       <span class="span12" style="background : url(images/underline.png) bottom repeat-x;"> </span>

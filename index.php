@@ -100,10 +100,12 @@ if ($user_id) {
      
       <?php if (isset($basic)) { ?>
       <div class="row">
-      <div class="hero-unit span12" style="background-color:#175e94">
-        <span class="span2" id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
+      <div class="hero-unit span12" style="background-color:#175e94; border:solid 2px white;">
+        <span id="picture" style="background: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal) no-repeat; height:100px;"></span>
         <br>
-         <h1>Welcome to your ReelLife, <span style="text-decoration:underline"><?php echo he(idx($basic, 'name')); ?></span></h1>
+         <h1>Welcome to your ReelLife, 
+          <br>
+          <span style="text-decoration:underline"><?php echo he(idx($basic, 'name')); ?></span></h1>
       <?php } ?>
       <h2>You have 7 seconds to capture a moment... make it count!</h2>
       <span class="span12" style="background : url(images/underline.png) bottom repeat-x;"> </span>
