@@ -119,10 +119,10 @@ if ($user_id) {
 
 <div class="hero-unit titletext"> 
   <ul>
-    <li>Kai Leith</li>
-    <li>Patrick Gray</li>
-    <li>Jonathon Moran</li>
-    <li>Aaron Davis</li>
+    <li>Kai Leith - kleith@live.unc.edu</li>
+    <li>Patrick Gray - pgrayobx@gmail.com</li>
+    <li>Jonathon Moran - jonathan.fl.moran@gmail.com</li>
+    <li>Aaron Davis - aaronmd@live.unc.edu</li>
   </ul>
 </div>
      
